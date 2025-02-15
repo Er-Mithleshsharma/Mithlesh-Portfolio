@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 export const Products = () => {
   return (
     <div>
-      <div className="grid grid-cols-1  gap-10">
+      <div className="grid grid-cols-1 gap-10">
         {products.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
@@ -41,7 +41,7 @@ export const Products = () => {
                 <div>
                   <Heading
                     as="h4"
-                    className="font-black text-lg md:text-lg lg:text-lg "
+                    className="font-black text-lg md:text-lg lg:text-lg"
                   >
                     {product.title}
                   </Heading>
@@ -49,11 +49,12 @@ export const Products = () => {
                     {product.description}
                   </Paragraph>
                 </div>
-                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
+                {/* Updated Stack Container with flex-wrap */}
+                <div className="flex flex-wrap gap-2 md:mb-1 mt-2 md:mt-0">
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}
-                      className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+                      className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
                     >
                       {stack}
                     </span>

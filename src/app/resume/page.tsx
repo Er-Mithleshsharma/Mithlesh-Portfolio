@@ -13,7 +13,7 @@ export default function Home() {
         </Paragraph>
         <div className="flex justify-center space-x-4 mt-4">
           <a
-            href="https://linkedin.com/in/mithleshsharma"
+            href="https://www.linkedin.com/in/ermithleshsharma/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 transition-colors"
@@ -21,7 +21,7 @@ export default function Home() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/mithleshsharma"
+            href="https://github.com/Er-Mithleshsharma"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 transition-colors"
@@ -29,7 +29,7 @@ export default function Home() {
             GitHub
           </a>
           <a
-            href="https://mithleshsharma.vercel.app"
+            href="https://mithleshsharma.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 transition-colors"
