@@ -17,7 +17,7 @@ export default function Home() {
         millions of lives
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m currently working with <Highlight> EssayChecker.ai</Highlight> as Web Developer Intern{" "}
+        I&apos;m currently working with <Highlight>ATOBIC TECHNOLOGIES PRIVATE LIMITED</Highlight> as Associate Product Engineer {" "} and i have worked with other companies like <Highlight>ESSAYCHECKER</Highlight> as a full-stack developer
         where I am building scalable web apps
         that are performance optimized and good looking.
       </Paragraph>

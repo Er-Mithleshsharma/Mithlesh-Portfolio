@@ -10,12 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mithlesh Sharma - Developer",
+  title: "Mithlesh Sharma - Product Engineer",
   icons: {
     icon: "/favicon.ico", // Add favicon here
   },
   description:
-    "Mithlesh sharma is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Mithlesh sharma is a Product Engineer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
 };
 
 export default function RootLayout({
